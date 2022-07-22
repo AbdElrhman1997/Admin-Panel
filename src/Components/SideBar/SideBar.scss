@@ -1,0 +1,36 @@
+.noneBar::-webkit-scrollbar{
+    display: none;
+} 
+.sideBar::-webkit-scrollbar {
+    width: 1vh;
+}
+
+.sideBar::-webkit-scrollbar {
+    width: 1vh;
+}
+.sideBar::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 175, 175);
+    border-radius: 10px;
+}
+.sideBar::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(152, 152, 152);
+}
+.sideBar::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255);
+}
+#SideBar {
+    width: 25% !important;
+    ul {
+        a {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            span {
+                margin: 0 1rem;
+            }
+            span:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}

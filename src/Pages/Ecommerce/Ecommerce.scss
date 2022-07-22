@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $main-color:red;
+// $main-size:29px;
+// //% this mean that box not found as a class or anything in the project
+// %box {
+//     border-radius: 10px;
+//     background-color: #dddd;
+// }
+// $theme:'light';
+// * {
+//     margin: 0;
+// }
+
+// @mixin Media($point) {
+//     @if $point==mobile {
+//         @media (max-width:767px) {
+//             @content
+//         }
+//     } 
+//     @else if $point==small {
+//         @media (min-width:768px)and(max-width:991px) {
+//             @content;
+//         }
+//     } 
+//     @else if $point==medium {
+//         @media (min-width:768px)and(max-width:991px) {
+//             @content;
+//         }
+//     } 
+//     @else if $point==large {
+//         @media (min-width:768px)and(max-width:991px) {
+//             @content;
+//         }
+//     }
+// }
+
+// div {
+//     @extend %box;
+//     font: {
+//         size: 20px;
+//         weight: bold;
+//     }
+//     @if $theme =='light' {
+//         background-color: #fff;
+//         color: #444;
+//     }@else {
+//         background-color: #444;
+//         color: #fff;
+//     }
+//     margin: auto;
+//     @include Media(mobile) {
+//         width: 60%;
+//     }
+//     @include Media(small) {
+//         width: 80%;
+//     }
+//     @include Media(medium) {
+//         width: 90%;
+//     }
+// }
+// $divs:'one' red ,'tow' green,'three' blue;
+
+// @each $class,$color in $divs {
+//     .parent {
+//         .#{$class} {
+//             background-color: $color;
+//         }
+//         .#{$color} {
+//             background-color: $color;
+//         }
+//         .#{$color} {
+//             background-color: $color;
+//         }
+//     }
+// }
+
+
+
+

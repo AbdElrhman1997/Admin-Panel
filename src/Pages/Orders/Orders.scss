@@ -1,0 +1,152 @@
+#Orders {
+    width: 90vw;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2rem;
+    table {
+        margin: 1rem auto;
+        thead {
+            tr {
+                border: 1px solid rgba(222, 222, 222, 0.986);
+                th {
+                    text-align: center;
+                    width: 14vw;
+                    font-size: .8rem;
+                    padding: .7rem 0;
+                    color: gray;
+                }
+            }
+        }
+        tbody {
+            tr {
+                border: 1px solid rgba(222, 222, 222, 0.986);
+                td {
+                    text-align: center;
+                    width: 14vw;
+                }
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 10px;
+                    margin: 1rem auto;
+                }
+            }
+        }
+    }
+}
+.Reject,.Canceled,.Active,.Complete,.Pending {
+    border-radius: 10px;
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.Reject {
+    background-color: red;
+}
+.Canceled {
+    background-color: pink;
+}
+.Active {
+    background-color: rgb(3, 251, 255);
+}
+.Complete {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.Pending {
+    background-color: rgba(255, 166, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $main-color:red;
+// $main-size:29px;
+// //% this mean that box not found as a class or anything in the project
+// %box {
+//     border-radius: 10px;
+//     background-color: #dddd;
+// }
+// $theme:'light';
+// * {
+//     margin: 0;
+// }
+
+// @mixin Media($point) {
+//     @if $point==mobile {
+//         @media (max-width:767px) {
+//             @content
+//         }
+//     } 
+//     @else if $point==small {
+//         @media (min-width:768px)and(max-width:991px) {
+//             @content;
+//         }
+//     } 
+//     @else if $point==medium {
+//         @media (min-width:768px)and(max-width:991px) {
+//             @content;
+//         }
+//     } 
+//     @else if $point==large {
+//         @media (min-width:768px)and(max-width:991px) {
+//             @content;
+//         }
+//     }
+// }
+
+// div {
+//     @extend %box;
+//     font: {
+//         size: 20px;
+//         weight: bold;
+//     }
+//     @if $theme =='light' {
+//         background-color: #fff;
+//         color: #444;
+//     }@else {
+//         background-color: #444;
+//         color: #fff;
+//     }
+//     margin: auto;
+//     @include Media(mobile) {
+//         width: 60%;
+//     }
+//     @include Media(small) {
+//         width: 80%;
+//     }
+//     @include Media(medium) {
+//         width: 90%;
+//     }
+// }
+// $divs:'one' red ,'tow' green,'three' blue;
+
+// @each $class,$color in $divs {
+//     .parent {
+//         .#{$class} {
+//             background-color: $color;
+//         }
+//         .#{$color} {
+//             background-color: $color;
+//         }
+//         .#{$color} {
+//             background-color: $color;
+//         }
+//     }
+// }
+
+
+
+

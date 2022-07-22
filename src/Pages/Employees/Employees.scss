@@ -1,0 +1,54 @@
+#Employees {
+    width: 90vw;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2rem;
+    table {
+        margin: 1rem 0;
+        thead {
+            tr {
+                position: relative;
+                .icon {
+                    position: absolute;
+                    right: .5rem;
+                    top: 30%;
+                }
+                input {
+                    margin: .5rem;
+                    float: right;
+                    border: none;
+                    outline: none;
+                }
+                input:focus {
+                    border-bottom: 2px solid gray;
+                } 
+            }
+            tr {
+                border: 1px solid rgba(222, 222, 222, 0.986);
+                th {
+                    text-align: center;
+                    width: 11vw;
+                    font-size: .8rem;
+                    padding: .7rem 0;
+                    color: gray;
+                }
+            }
+        }
+        tbody {
+            tr {
+                border: 1px solid rgba(222, 222, 222, 0.986);
+                td {
+                    text-align: center;
+                    width: 11vw;
+                }
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 10px;
+                    margin: .5rem auto;
+                }
+            }
+        }
+    }
+}
